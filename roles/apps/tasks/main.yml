@@ -4,7 +4,7 @@
     path: /usr/local/bin/brew
   register: homebrew_check
 - name: Installing Homebrew
-  shell: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  shell: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   fail:
     msg: Occured an error when trying to install homebrew, please check http://brew.sh for more info
   when:

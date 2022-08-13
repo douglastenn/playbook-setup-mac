@@ -5,6 +5,7 @@ brew_packages:
   - docker-completion
   - docker-compose-completion
   - docker-machine-completion
+  - minikube
   - kubernetes-cli
   - homebrew/cask-drivers/logitech-options
   - rich-cli
@@ -38,6 +39,5 @@ brew_cask_packages:
   - docker
   - iterm2
   - insomnia
-  - minikube
   - notion
   - whatsapp

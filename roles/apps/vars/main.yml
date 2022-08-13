@@ -7,8 +7,8 @@ brew_packages:
   - docker-machine-completion
   - kubernetes-cli
   - homebrew/cask-drivers/logitech-options
+  - rich-cli
   - z
-  - zsh
   - zsh-autosuggestions
   - zsh-syntax-highlighting
   - go

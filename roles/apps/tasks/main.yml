@@ -5,10 +5,6 @@
   register: homebrew_check
 - name: Installing Homebrew
   script: install-homebrew.sh
-#   fail:
-#     msg: >-
-#       Occured an error when trying to install homebrew, please check
-#       http://brew.sh for more info
   when:
     - not homebrew_check.stat.exists
 - name: Installing Homebrew Cask Packages

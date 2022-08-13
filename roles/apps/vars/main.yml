@@ -1,0 +1,44 @@
+---
+install_homebrew_if_missing: false
+brew_packages:
+  - git
+  - git-lfs
+  - docker-completion
+  - docker-compose-completion
+  - docker-machine-completion
+  - kubernetes-cli
+  - homebrew/cask-drivers/logitech-options
+  - z
+  - zsh
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
+  - go
+  - nvm
+  - jabba
+  - jq
+  - nmap
+  - wget
+  - htop
+  - tree
+  - terraform
+  - terraform-inventory
+  - terraform-provisioner-ansible
+  
+brew_cask_packages:
+  - 1password
+  - caffeine
+  - slack
+  - spotify
+  - spectacle
+  - brave-browser
+  - google-chrome
+  - google-drive
+  - adobe-creative-cloud
+  - jetbrains-toolbox
+  - visual-studio-code
+  - docker
+  - iterm2
+  - insomnia
+  - minikube
+  - notion
+  - whatsapp

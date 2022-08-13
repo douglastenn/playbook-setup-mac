@@ -1,11 +1,11 @@
 ---
   - name: Ensuring Homebrew Is Installed
     stat:
-      path: /usr/local/bin/brew
-    register: homebrew_check
+      path: "/usr/local/bin/brew"
+    register: "homebrew_check"
 
   - name: Installing Homebrew
-    shell: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    shell: '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
     fail:
       msg: Occured an error when trying to install homebrew, please check http://brew.sh for more info
     when:

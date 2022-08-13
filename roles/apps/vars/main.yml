@@ -1,5 +1,4 @@
 ---
-install_homebrew_if_missing: false
 brew_packages:
   - git
   - git-lfs

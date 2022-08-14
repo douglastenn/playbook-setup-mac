@@ -7,7 +7,6 @@ brew_packages:
   - docker-machine-completion
   - minikube
   - kubernetes-cli
-  - homebrew/cask-drivers/logitech-options
   - rich-cli
   - z
   - zsh-autosuggestions

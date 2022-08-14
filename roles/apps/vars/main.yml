@@ -21,7 +21,6 @@ brew_packages:
   - tree
   - terraform
   - terraform-inventory
-  - terraform-provisioner-ansible
   
 brew_cask_packages:
   - 1password
